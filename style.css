@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.out{
+    border: solid 1px;
+    height: 170px;
+    display: flex;
+}
+#box1,#box2,#box3{
+    border: solid 1px;
+    height: 170px;
+}
+#box1{
+    width: 170px;
+}
+#box2{
+    text-align: center;
+    width: 1100px;
+   
+}
+#box3{
+    width: 170px;
+}
+#clgname{
+    font-size: 45px;
+    color: red;
+}
+#text1,#text{
+    font-size: 15px;
+}
+#textscroll{
+    font-size: 22px;
+    color: rgb(184, 30, 255);
+    font-weight: bold;
+}
+#navbox{
+    border: solid 1px;
+    height: 50px;
+}
+ul li{
+    border: solid 1px;
+    height: 50px;
+    width: 180px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    background-color: bisque;
+    border-radius: 10px;
+    margin-right: 2px;
+    position: relative;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    color: rgb(33, 33, 190);
+    font-size: 23px;
+    
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+ul li:hover{
+background-color: cyan;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover{
+    display: block;
+}
+#clg{
+    border: solid 1px;
+    height: 800px;
+}
+
+
+
+ 
